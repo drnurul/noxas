@@ -24,7 +24,7 @@ export const insightsData = [
         body: 'The most effective digital presence directs visitors toward one clear action: initiating a conversation. By eliminating redundant navigation clutter and presenting case studies with editorial weight, visitors understand who you are within five seconds of landing.',
       },
     ],
-    image: 'https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1200&auto=format&fit=crop',
+    image: '/images/web-development.webp',
   },
   {
     slug: 'what-makes-creator-content-authentic',
@@ -51,7 +51,7 @@ export const insightsData = [
         body: 'Effective agency curation involves creating clear guardrails—key benefit hooks, sensory prompts, and brand safety boundaries—while deliberately leaving the delivery format open to the creator’s native style.',
       },
     ],
-    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1200&auto=format&fit=crop',
+    image: '/images/influencer-marketing.webp',
   },
   {
     slug: 'why-your-ecommerce-experience-matters',
@@ -78,6 +78,6 @@ export const insightsData = [
         body: 'The transaction does not end at checkout. Thoughtful order confirmations, transparent delivery tracking, and cohesive unboxing guidance transform a one-time purchase into lifelong brand advocacy.',
       },
     ],
-    image: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=1200&auto=format&fit=crop',
+    image: '/images/portfolio-ecommerce.webp',
   },
 ];

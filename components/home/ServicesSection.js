@@ -55,8 +55,7 @@ const featuredWebProjects = [
     description:
       'A jewellery-focused digital storefront showcasing the brand and its product experience.',
     ctaText: 'Visit Live Website',
-    image:
-      'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=1400&auto=format&fit=crop',
+    image: '/images/portfolio-ecommerce.webp',
     accentTag: 'Fine Sterling Silver & Diamonds',
     spanClass: 'lg:col-span-7',
     badgeTone: 'Jewellery Atelier',
@@ -69,8 +68,7 @@ const featuredWebProjects = [
     category: 'Website Development',
     description: 'Explore a live website project developed for the AMRIN brand.',
     ctaText: 'Visit Live Website',
-    image:
-      'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1400&auto=format&fit=crop',
+    image: '/images/portfolio-business.webp',
     accentTag: 'Modern Brand Flagship',
     spanClass: 'lg:col-span-5',
     badgeTone: 'Fashion Flagship',
@@ -222,8 +220,8 @@ export default function ServicesSection() {
                   {/* Big Card: Micro-creators creating Reels */}
                   <div className="col-span-12 sm:col-span-7 relative group/media overflow-hidden border border-[#E5E5E5] bg-[#171717] aspect-[4/5] shadow-sm">
                     <Image
-                      src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1200&auto=format&fit=crop"
-                      alt="Micro-creator filming social reels for beauty brand collaboration"
+                      src="/images/influencer-marketing.webp"
+                      alt="Indian beauty creator producing brand collaboration for Noxas influencer marketing"
                       fill
                       className="object-cover object-center group-hover/media:scale-105 transition-transform duration-700 ease-out"
                       sizes="(max-width: 768px) 100vw, 35vw"
@@ -257,8 +255,8 @@ export default function ServicesSection() {
                     {/* Top Small Card: Product Unboxing & Demonstration */}
                     <div className="relative group/box overflow-hidden border border-[#E5E5E5] bg-[#F5F5F2] aspect-[4/3] sm:aspect-auto sm:flex-1 shadow-sm">
                       <Image
-                        src="https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1000&auto=format&fit=crop"
-                        alt="Skincare product unboxing and demonstration setup"
+                        src="/images/hero-noxas.webp"
+                        alt="Skincare product routine and beauty creator setup"
                         fill
                         className="object-cover object-center group-hover/box:scale-105 transition-transform duration-700 ease-out"
                         sizes="(max-width: 768px) 100vw, 20vw"
@@ -277,7 +275,7 @@ export default function ServicesSection() {
                     {/* Bottom Small Card: Jewellery & Fashion Products */}
                     <div className="relative group/jewel overflow-hidden border border-[#E5E5E5] bg-[#F5F5F2] aspect-[4/3] sm:aspect-auto sm:flex-1 shadow-sm">
                       <Image
-                        src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=1000&auto=format&fit=crop"
+                        src="/images/portfolio-ecommerce.webp"
                         alt="Jewellery and fashion product curation for creator styling"
                         fill
                         className="object-cover object-center group-hover/jewel:scale-105 transition-transform duration-700 ease-out"
@@ -374,6 +372,22 @@ export default function ServicesSection() {
 
                 {/* Right: Key Offerings & Primary CTA */}
                 <div className="lg:col-span-6 space-y-6">
+                  {/* Visual Showcase: Web Development Workstation */}
+                  <div className="relative aspect-[16/9] w-full overflow-hidden border border-[#E5E5E5] bg-[#F5F5F2] shadow-sm group/webvis">
+                    <Image
+                      src="/images/web-development.webp"
+                      alt="Modern web design workstation displaying luxury responsive e-commerce on desktop and smartphone"
+                      fill
+                      className="object-cover object-center group-hover/webvis:scale-105 transition-transform duration-700 ease-out"
+                      sizes="(max-width: 768px) 100vw, 40vw"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60" />
+                    <div className="absolute bottom-3 left-3 right-3 p-2.5 bg-white/95 backdrop-blur-md border border-[#E5E5E5] flex items-center justify-between text-[10px]">
+                      <span className="uppercase tracking-[0.2em] text-[#D62545] font-bold">Responsive Flagships</span>
+                      <span className="text-[#686868] font-medium">Bespoke UI &middot; MERN Stack</span>
+                    </div>
+                  </div>
+
                   <div className="p-6 sm:p-7 bg-[#F5F5F2] border border-[#E5E5E5] space-y-4 shadow-sm">
                     <div className="flex items-center justify-between border-b border-[#E5E5E5] pb-3">
                       <span className="text-[10px] uppercase tracking-[0.25em] text-[#111111] font-bold">

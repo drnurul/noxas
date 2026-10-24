@@ -179,8 +179,8 @@ export default function InfluencerMarketingPage() {
             <div className="lg:col-span-6">
               <div className="relative aspect-[4/3] w-full overflow-hidden border border-[#E5E5E5] bg-[#F5F5F2] shadow-sm">
                 <Image
-                  src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=1200&auto=format&fit=crop"
-                  alt="UGC cosmetic product demonstration"
+                  src="/images/influencer-marketing.webp"
+                  alt="Indian beauty creator producing brand collaboration for Noxas influencer marketing"
                   fill
                   className="object-cover object-center"
                   sizes="(max-width: 768px) 100vw, 50vw"

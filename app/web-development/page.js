@@ -82,34 +82,53 @@ export default function WebDevelopmentPage() {
       {/* Hero Header */}
       <section className="py-16 sm:py-24 bg-white border-b border-[#E5E5E5]">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
-          <div className="max-w-3xl space-y-6">
-            <div className="inline-flex items-center space-x-2 text-[11px] uppercase tracking-[0.25em] text-[#D62545] font-bold">
-              <Code2 size={14} />
-              <span>Digital Architecture &amp; Engineering</span>
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+            <div className="lg:col-span-7 space-y-6">
+              <div className="inline-flex items-center space-x-2 text-[11px] uppercase tracking-[0.25em] text-[#D62545] font-bold">
+                <Code2 size={14} />
+                <span>Digital Architecture &amp; Engineering</span>
+              </div>
+              <h1 className="text-4xl sm:text-6xl md:text-7xl font-light text-[#111111] tracking-tight leading-tight">
+                Websites That Command{' '}
+                <span className="font-editorial italic font-normal text-[#D62545]">
+                  Prestige &amp; Profit.
+                </span>
+              </h1>
+              <p className="text-base sm:text-lg text-[#686868] leading-relaxed">
+                We design and engineer bespoke web flagships and e-commerce platforms that combine editorial aesthetics with uncompromising technical performance.
+              </p>
+              <div className="pt-2 flex flex-wrap gap-4">
+                <Link
+                  href="/contact?service=Website+Development"
+                  className="inline-flex items-center space-x-2 px-8 py-4 bg-[#D62545] text-white text-xs uppercase tracking-[0.2em] font-semibold hover:bg-[#E94A14] transition-colors"
+                >
+                  <span>Request a Web Proposal</span>
+                  <ArrowUpRight size={14} />
+                </Link>
+                <Link
+                  href="/portfolio"
+                  className="inline-flex items-center space-x-2 px-8 py-4 border border-[#111111] bg-white text-xs uppercase tracking-[0.2em] font-semibold text-[#111111] hover:bg-[#111111] hover:text-white transition-colors"
+                >
+                  <span>View Web Concepts</span>
+                </Link>
+              </div>
             </div>
-            <h1 className="text-4xl sm:text-6xl md:text-7xl font-light text-[#111111] tracking-tight leading-tight">
-              Websites That Command{' '}
-              <span className="font-editorial italic font-normal text-[#D62545]">
-                Prestige &amp; Profit.
-              </span>
-            </h1>
-            <p className="text-base sm:text-lg text-[#686868] leading-relaxed">
-              We design and engineer bespoke web flagships and e-commerce platforms that combine editorial aesthetics with uncompromising technical performance.
-            </p>
-            <div className="pt-2 flex flex-wrap gap-4">
-              <Link
-                href="/contact?service=Website+Development"
-                className="inline-flex items-center space-x-2 px-8 py-4 bg-[#D62545] text-white text-xs uppercase tracking-[0.2em] font-semibold hover:bg-[#E94A14] transition-colors"
-              >
-                <span>Request a Web Proposal</span>
-                <ArrowUpRight size={14} />
-              </Link>
-              <Link
-                href="/portfolio"
-                className="inline-flex items-center space-x-2 px-8 py-4 border border-[#111111] bg-white text-xs uppercase tracking-[0.2em] font-semibold text-[#111111] hover:bg-[#111111] hover:text-white transition-colors"
-              >
-                <span>View Web Concepts</span>
-              </Link>
+
+            <div className="lg:col-span-5 relative">
+              <div className="relative aspect-[16/10] sm:aspect-[4/3] w-full overflow-hidden border border-[#E5E5E5] bg-[#F5F5F2] shadow-xl">
+                <Image
+                  src="/images/web-development.webp"
+                  alt="Modern web design workstation displaying luxury responsive e-commerce on desktop and smartphone"
+                  fill
+                  priority
+                  className="object-cover object-center"
+                  sizes="(max-width: 768px) 100vw, 40vw"
+                />
+                <div className="absolute bottom-4 left-4 right-4 p-3 bg-white/95 backdrop-blur-md border border-[#E5E5E5] flex items-center justify-between text-[10px]">
+                  <span className="uppercase tracking-[0.2em] text-[#D62545] font-bold">Responsive Flagship</span>
+                  <span className="text-[#686868] font-medium">Bespoke Next.js Engineering</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>

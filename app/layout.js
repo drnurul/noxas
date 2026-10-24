@@ -20,10 +20,11 @@ const playfair = Playfair_Display({
 export const metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.name} — Digital Growth, Website Development & Influencer Marketing`,
+    default: `${siteConfig.name} — Influencer Marketing & Custom Website Development Agency`,
     template: `%s | ${siteConfig.name}`,
   },
-  description: siteConfig.subheadline,
+  description:
+    'Noxas connects D2C beauty and skincare brands with authentic creators and engineers bespoke, high-performance websites and e-commerce flagships.',
   keywords: [
     'NOXAS',
     'creative agency',
@@ -33,23 +34,46 @@ export const metadata = {
     'UGC campaigns',
     'creator marketing',
     'beauty marketing agency',
-    'jewelry e-commerce',
+    'skincare influencer agency India',
+    'custom web development',
     'luxury digital agency',
   ],
   authors: [{ name: siteConfig.legalName }],
   creator: siteConfig.name,
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/icon.svg', type: 'image/svg+xml' },
+      { url: '/icon.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+    shortcut: '/favicon.ico',
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: siteConfig.url,
-    title: `${siteConfig.name} — Digital Growth, Website Development & Influencer Marketing`,
-    description: siteConfig.subheadline,
+    title: `${siteConfig.name} — Influencer Marketing & Custom Website Development Agency`,
+    description:
+      'Noxas connects D2C beauty and skincare brands with authentic creators and engineers bespoke, high-performance websites and e-commerce flagships.',
     siteName: siteConfig.name,
+    images: [
+      {
+        url: '/images/hero-noxas.webp',
+        width: 1376,
+        height: 768,
+        alt: 'NOXAS Influencer Marketing & Website Development Agency',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${siteConfig.name} — Digital Growth, Website Development & Influencer Marketing`,
-    description: siteConfig.subheadline,
+    title: `${siteConfig.name} — Influencer Marketing & Custom Website Development Agency`,
+    description:
+      'Noxas connects D2C beauty and skincare brands with authentic creators and engineers bespoke, high-performance websites and e-commerce flagships.',
+    images: ['/images/hero-noxas.webp'],
   },
   robots: {
     index: true,

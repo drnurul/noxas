@@ -109,8 +109,8 @@ export default function HeroSection() {
             <div className="relative mx-auto max-w-md lg:max-w-none">
               <div className="relative aspect-[4/5] overflow-hidden border border-[#E5E5E5] bg-[#F5F5F2] shadow-xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=1200&auto=format&fit=crop"
-                  alt="NOXAS luxury jewelry and digital art direction concept"
+                  src="/images/hero-noxas.webp"
+                  alt="Indian skincare content creator filming a beauty collaboration video in a minimalist studio"
                   fill
                   priority
                   className="object-cover object-center hover:scale-105 transition-all duration-700"
@@ -129,10 +129,10 @@ export default function HeroSection() {
                 {/* Lower Card Info */}
                 <div className="absolute bottom-6 left-6 right-6 p-4 bg-white/95 backdrop-blur-md border border-[#E5E5E5] shadow-md">
                   <div className="text-[10px] uppercase tracking-[0.25em] text-[#D62545] font-bold">
-                    NOXAS ARCHIVE &middot; CONCEPT 01
+                    NOXAS STUDIO &middot; EDITORIAL
                   </div>
                   <div className="text-sm font-semibold text-[#111111] mt-1">
-                    Sculptural High Jewelry &amp; Responsive Flagship
+                    Creator Partnerships &amp; Digital Flagships
                   </div>
                 </div>
               </div>
@@ -140,14 +140,14 @@ export default function HeroSection() {
               {/* Offset Secondary Visual Overlap */}
               <div className="hidden sm:block absolute -bottom-8 -left-8 w-44 aspect-square border border-[#E5E5E5] overflow-hidden shadow-xl bg-white">
                 <Image
-                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=600&auto=format&fit=crop"
-                  alt="Creator culture and portraiture"
+                  src="/images/creator-community.webp"
+                  alt="Noxas creator community producing social media content"
                   fill
                   className="object-cover object-center"
                   sizes="180px"
                 />
                 <div className="absolute bottom-2 left-2 right-2 px-2 py-1 bg-[#111111] text-[9px] uppercase tracking-[0.18em] text-white font-bold text-center">
-                  Creator Lab
+                  Creator Roster
                 </div>
               </div>
 
